@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+
+
+ </head>
+ <body>
+<script>
+
+alert("In dit spel speel je als een jonge genaamd Token");
+alert("Vul alstublieft alleen 1 of 2 in.");
+
+var actie1
+var actie2
+var actie3
+var actie4
+var actie5
+var actie6
+var actie7
+
+if (actie1= prompt("Je loopt terug naar je hut.\nJe ziet onderweg iemand op de grond liggen.\nWat doe je\n1. Je gaat kijken of het goed gaat\n2. Je loopt door.")==="1")
+    {if (actie2= prompt("De persoon is dood.Naast de persoon ligt een pistool .\nWat doe je?\n1.Je haalt de trekker over om te kijken of het pistool geladen is.\n2.Je belt de politie.")==="1")
+        {if (actie5= prompt("Het pistool is geladen maar schiet niet. Probeer je het opnieuw.\n 1. Ja\n2. Nee")==="1")
+           {document.write("De pistool ontploft in je handen.\nJe bent dood")}
+       else{document.write("Je legt het pistool weer neer op de grond, maar terwijl je het pistol neer legt haal je de trekker over. Het pistol ontploft.\nbent dood")}
+
+     }else{if (actie6= prompt ("Je wilt de politie bellen maar je telefoon is heel warm.\nWat doe je?\n1.Je blijft doorbellen\n2.Je stopt met bellen.")==="1")
+            {document.write("Het was niet handig om te blijven bellen. Je telefoon word zo warm dat hij in je handen omtploft. Je bent dood.")}
+       else {document.write("Het is telaat voor je. De telefoon word zo warm dat hij in je handen ontploft. Je bent dood.")}}
+
+    }else{if (actie3= prompt ("Je blijft doorlopen en ziet iemand met een mes naar je toe lopen.\nWat doe je?\n1. Je blijft stil staan\n2. Je rent de andere kant op.")=== "1")
+            {if (actie7= prompt ("De gemaskerde man blijft naar je toe lopen.\nWat doe je?\n1. Je blijft nogsteeds staan.\n2. Je gaat alsnog rennen")=== "1")
+               {document.write("De gemaskerde man man gaat voor je neus staan en zegt dat je veel moed hebt. Hij laat je deze ene keer leven. Gefeliciteerd je overleefd het.")
+            }else{document.write("Je bent helaas telaat begonnen met rennen. De man haalt met 1 slag je hoofd eraf. Je bent dood.")}
+
+        }else{if (actie4= prompt ("Je rent weg maar de gemaskerde man is sneller. Je ziet dat hij je bijhoud.\nWat doe je?\n1. Je blijft rennen\n2. Je probeert hem te laten struikelen.")==="ja")
+             {doucument.write("Hij is te snel voor je en steekt zijn mes in jou rug. Je bent dood.")
+        }else{document.write("Helaas was het niet z'n goed idee. De man valt wel op de grond maar steekt je toch nog neer met zijn mes. Je bent dood.")}}}
+</script>
+ </body>
+ </html>
